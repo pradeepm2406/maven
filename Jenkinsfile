@@ -8,7 +8,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'maven clean'
-                //ABC indicates the folder name where the pom.xml file resides
+                //ABC indicates the folder name where the pom.xml file resides.
                 bat ' mvn -f pom.xml clean install'  
             }
             post {
