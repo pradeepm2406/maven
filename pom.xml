@@ -17,7 +17,6 @@
   </dependencies>
   <build>
     <!-- Demo on Github webhook -->
-    <!--trying the run second time -->
     <finalName>jenkins-git-integration</finalName>
   </build>
 </project>
